@@ -34,7 +34,9 @@ def load_data():
     f.close()
     for line in data[1:]:
         x = line.strip().split(",")
-        flight_list.append(Flight(x[0], x[1], x[2], int(x[3]), int(x[4])))
+        flight_list.append(Flight(x[0], x[1], 
+
+x[2], int(x[3]), int(x[4])))
     return flight_list
 
 
